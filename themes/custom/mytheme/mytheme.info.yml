@@ -1,0 +1,15 @@
+name: MyTheme
+type: theme
+description: 'Theme for MyTheme.'
+package: custom
+core: 8.x
+libraries:
+  - mytheme/main
+
+regions:
+  header: Header
+  footer: Footer
+  content: Content
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
